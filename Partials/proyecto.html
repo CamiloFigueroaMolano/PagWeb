@@ -5,12 +5,12 @@
                 <h2 class="titulo1">PROYECTO</h2>
                 <br>
                 <p class="parrafo1">
-                    Bienvenidos a un cautivador viaje a
-                    través de las páginas de un libro álbum
-                    que celebra la estrecha conexión entre la
-                    mujer, el campo y la delicada flor.                </p>
+                    Bienvenidos a un cautivador viaje a través de las páginas de un libro álbum
+                    que celebra la estrecha conexión entre la mujer, el campo y la delicada flor.
+                </p>
                 <br>
-                <button class="btn btn-dark text-white btnvermas1 ">Ver más</button>
+                <!-- Botón "Ver más" con un identificador único -->
+                <button id="btnVerMas" class="btn btn-dark text-white btnvermas1" >Ver más</button>
             </div>
             <div class="col-md-6 position-relative colDer1">
                 <div class="image-container">
@@ -21,3 +21,9 @@
     </div>
 </section>
 
+<script>
+    document.getElementById('btnVerMas').addEventListener('click', function() {
+        // Abre video.html en una nueva ventana emergente
+        window.open('./Partials/video.html', '_blank', 'width=800,height=600');
+    });
+</script>
