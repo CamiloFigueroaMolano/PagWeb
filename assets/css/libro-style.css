@@ -1,0 +1,12 @@
+.tituloLibro{
+    margin-top: 200px;
+}
+
+.tituloLibro h2{
+    font-size: 60px;
+}
+
+.parrafoLibro{
+    margin-top: 50px;
+    font-size: 30px;
+}

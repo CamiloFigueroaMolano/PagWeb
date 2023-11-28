@@ -1,0 +1,24 @@
+
+#contacto h2 {
+    font-size: 60px; 
+    color: #333; 
+    margin-bottom: 20px; 
+}
+
+#contacto p {
+    font-size: 30px; 
+    color: black; 
+}
+
+#contacto form {
+    margin-top: 20px; 
+}
+
+#contacto .btn-primary {
+    font-size: 30px;
+    background-color: black; 
+    color: #fff; 
+    border-radius: 0;
+    padding-left: 60px;
+    padding-right: 60px;
+}

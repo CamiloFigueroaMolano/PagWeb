@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap-5.3.0-alpha2-dist/css/bootstrap.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/general-style.css">
+    <link rel="stylesheet" href="assets/css/navar-style.css">
+    <link rel="stylesheet" href="assets/css/proyecto.css">
+    <link rel="stylesheet" href="assets/css/concepto-style.css">
+    <link rel="stylesheet" href="assets/css/tarjetas-style.css">
+    <link rel="stylesheet" href="assets/css/libro-style.css">
+    <link rel="stylesheet" href="assets/css/ilustraciones-style.css">
+    <link rel="stylesheet" href="assets/css/contacto-style.css">
+
+    <!-- Importa los iconos de las redes sociales -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-...." crossorigin="anonymous">
+
+    <!-- Titulo -->
+    <title>Ante-Editorial</title>
+</head>
+
+<body>
+    <!-- Navbar marcador de posición -->
+    <section id="navbar-placeholder"></section>
+
+    <!-- Sección con Carrusel de imágenes -->
+    <section id="carouselHeader"></section>
+
+    <!-- Sección Proyecto -->
+    <section id="proyecto"></section>
+
+    <!-- Sección concepto -->
+    <section id="concepto"></section>
+
+    <!-- Sección Tarjetas de miembros -->
+    <section id="tarjetas"></section>
+
+     <!-- Sección libro de miembros -->
+     <section id="libro"></section>
+
+     <!-- Sección libro de miembros -->
+     <section id="ilustracionesYFotografias"></section>
+
+     <!-- Sección contacto -->
+     <section id="contacto"></section>
+     
+     <!-- Sección footer -->
+     <section id="footer"></section>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="bootstrap-5.3.0-alpha2-dist/js/bootstrap.bundle.js"></script>
+
+    <script>
+        // Cargar el contenido de los partials
+        $(document).ready(function() {
+            $("#navbar-placeholder").load("Partials/navbar.html");
+            $("#carouselHeader").load("Partials/carruselHeader.html");
+            $("#proyecto").load("Partials/proyecto.html");
+            $("#concepto").load("Partials/concepto.html");
+            $("#tarjetas").load("Partials/tarjetasIntegrantes.html");
+            $("#libro").load("Partials/libro.html");
+            $("#ilustracionesYFotografias").load("Partials/ilustracionesYFotografias.html"); 
+            $("#contacto").load("Partials/contacto.html"); 
+            $("#footer").load("Partials/footer.html"); 
+        });
+    </script>
+    <!-- Fin Scripts -->
+</body>
+
+</html>

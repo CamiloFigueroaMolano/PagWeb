@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Florania';
+    src: url('/assets/fonts/Florania-Trial.ttf') format('truetype');
+}
+
+body {
+    font-family: 'Florania', sans-serif;
+
+}
