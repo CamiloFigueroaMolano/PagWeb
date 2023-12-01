@@ -1,28 +1,25 @@
 /* Nav */
-#templatemo_nav_top { min-height: 40px; background-color: white;} 
+#templatemo_nav_top { min-height: 40px; background-color: white; padding: 0;} 
+#templatemo_main_nav {
+    margin-top: 170px; /* Puedes ajustar el valor según tus necesidades */
+  
+}
 #templatemo_nav_top * { font-size: 1em !important;}
 #templatemo_main_nav a { color: black   ; font-size: 1.5em!important; padding-top: 1.5em; padding-bottom: 1.5em;}
 #templatemo_main_nav a:hover { color: white;}
 #templatemo_main_nav .navbar .nav-icon { margin-right: 20px;}
 .navbar {
     background-color: #EE7642; 
-    padding: 10px; 
+    padding: 0; 
     display: flex;
     align-items: center; 
 }
 
 #templatemo_nav_top .logo {
-    max-width: 70%; 
+    max-width: 60%; 
     height: auto; 
 }
 
-
-.logo {   
-    max-width: 40%; 
-}
-.logo2 {   
-  max-width: 100%; 
-}
 
 #templatemo_main_nav .sub-menu {
     display: none;
@@ -52,3 +49,10 @@
     color: white;
 }
 
+@media (max-width: 991px) {
+    #templatemo_nav_top {
+        display: block !important;
+    }
+
+    
+}

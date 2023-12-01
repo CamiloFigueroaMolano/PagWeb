@@ -1,0 +1,13 @@
+#tempaltemo_footer div.text-right {
+    display: flex;
+    justify-content: right; /* Ajusta según sea necesario, por ejemplo, 'flex-end' para alinear a la derecha */
+}
+
+#tempaltemo_footer i {
+    font-size: 24px; /* Ajusta el tamaño de los íconos según tus preferencias */
+    margin: 0 8px; /* Agrega un espacio entre los íconos */
+}
+
+#tempaltemo_footer a:hover {
+    color: #ffffff; /* Cambia el color al pasar el ratón sobre los enlaces */
+}

@@ -25,7 +25,7 @@
     font-size: 30px;
 }
 
-.image-container::before {
+.image-container1::before {
     content: "";
     position: absolute;
     top: -40px;
